@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wrap It Up| Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Fredericka+the+Great&family=Georama:wght@200&family=Noto+Color+Emoji&family=Noto+Emoji:wght@300;400&family=Rubik+80s+Fade&family=Urbanist:wght@100;200&family=Ysabeau+SC:wght@1;200;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .header-1 {
+        min-height: 80vh;
+        background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/100/171/original/pexels-roman-odintsov-4955265_holding_wraps_COPY.jpg?1697133030");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      ul {
+        text-align: right;
+        line-height: 80px;
+      }
+      ul li {
+        list-style-type: none;
+        display: inline-block;
+        margin: 5px 10px;
+        padding: 0px 5px;
+      }
+      ul li a {
+        color: #ffff;
+        text-decoration: none;
+        border-radius: 15px;
+        padding: 5px 10px;
+      }
+      a:hover {
+        background-color: #a8ae67;
+        transition: 200ms ease;
+      }
+      h1 {
+        font-family: "Fredericka the Great";
+        text-align: center;
+        font-size: 80px;
+        line-height: 80px;
+        color: #ffff;
+      }
+      .subheading {
+        text-align: center;
+        font-family: "Urbanist";
+        color: #ffff;
+        padding: 10px;
+      }
+      .header-2 {
+        min-height: 80vh;
+        background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/100/095/original/pexels-artem-podrez-Green_background.jpg?1697102897");
+      }
+      .card {
+        padding: 10px;
+        margin: 5px 10px;
+        box-shadow: 0.5px 10px #e6e6e6;
+        transition: all 200ms ease-in-out;
+        background-color: #cdeda1;
+      }
+      .card-text {
+        font-family: "Urbanist";
+      }
+      h3 {
+        font-family: "Fredericka the Great";
+        text-align: center;
+        font-size: 40px;
+        line-height: 80px;
+        color: #ffff;
+      }
+      .card:hover {
+        cursor: pointer;
+        transform: translateY(-10px);
+      }
+      .btn {
+        display: block;
+        margin: 0 auto;
+        font-size: 20px;
+        background-color: #ffff;
+        color: #a8ae67;
+        border: 3px solid #a8ae67;
+        border-radius: 25px;
+      }
+      .btn:hover {
+        background: #a8ae67;
+        color: #ffff;
+        cursor: pointer;
+        transition: all 200ms ease;
+      }
+      .code {
+        text-align: center;
+        font-family: "Courier New", Courier, monospace;
+        color: #ffff;
+        padding: 10px;
+        text-decoration: none;
+      }
+      .code a {
+        color: #ffff;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="header-1">
+      <div class="container">
+        <ul>
+          <li><a href=""> HOME</a></li>
+          <li><a href=""> ABOUT</a></li>
+          <li><a href=""> CONTACT US</a></li>
+          <li><a href=""> EVENTS</a></li>
+        </ul>
+        <h1>WRAP IT UP!</h1>
+      </div>
+      <br />
+      <div class="subheading">
+        <h2>All Things Wrap Related!🌯</h2>
+        <p>
+          Our love for wraps is limitless, so we share that wrap flavour with
+          you! <br />
+          There's many reasons why we love wraps and if we do our job well, you
+          will love them too!<br />
+          Look around and if you find something you like, feel free to make a
+          purchase!
+        </p>
+      </div>
+    </section>
+    <section class="header-2">
+      <h3>Have a look around...</h3>
+      <br />
+      <p class="subheading">
+        There's so many reasons to love a good wrap meal! Not only is it
+        delicious and full of flavour, it is a nutricious alternative to a full
+        meal! Wraps are definitely for all occasions; sitting at a table with
+        friends and family or a quick snack on the go. There are so many
+        enjoyable ways to have wraps! Take a look around, you might want to try
+        one, make one for yourself, or join other wrap lovers like yourself! 😉
+      </p>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/100/118/original/pexels-hamza-nouasria-10837796.jpg?1697108968"
+              class="card-img-top"
+              alt="Meals"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Meals</h5>
+              <p class="card-text">
+                Choose your fighter! Whether you're an Avo lover, Pulled Chicken
+                lover or just want a vegan friendly wrap, you can find an array
+                of meals that suite your liking! Want to try something new?
+                We've got you covered!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/100/098/original/pexels-klaus-nielsen-6287326_recipe_for_wrap.jpg?1697103058"
+              class="card-img-top"
+              alt="Recipes"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Recipes</h5>
+              <p class="card-text">
+                Want to dabble in the kitchen? No problem! We have step-by-step
+                recipe guides and videos for you to get wrapping! Find your
+                favourite and get crackling! Plenty of available platforms,
+                videos and blogposts to help you get started!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/100/100/original/pexels-diva-plavalaguna-6150382_people_eating_at_a_table.jpg?1697103120"
+              class="card-img-top"
+              alt="Community"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Community</h5>
+              <p class="card-text">
+                Comminity is everything. Share tips and tricks in the kitchen
+                that you feel everyone should try next time they make a wrap!
+                Subscribe to our newsletter to get updates and events near you
+                so you never miss a wrap tasting opportunity!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="purchase-button">
+        <button type="button" class="btn">MAKE A PURCHASE!</button>
+      </div>
+      <br />
+      <p class="code">
+        Coded by
+        <a
+          class="code-link"
+          href="https://www.shecodes.io/graduates/93572-shalom-jere"
+          target="_blank"
+          >Shalom Jere</a
+        >
+      </p>
+    </section>
+
+    <script></script>
+  </body>
+</html>
